@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>MyStore</h1>
+      <ul>
+        <li><a href="/">Product List </a></li>
+        |
+        <li><a href="/">Cart</a></li>
+      </ul>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-6 col-md-6 col-lg-6 items" >
+                <div class="item">
+                    <img src="./assets/book.jpg" alt="">
+                    <div class="details">
+                        <h5>Title</h5>
+                        <p>$9.99</p>
+                        <p>Amount 
+                            <select name="" id="">
+                                <option value="1">1</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/headphone.jpg" alt="">
+                    <div class="details">
+                        <h5>Title</h5>
+                        <p>$9.99</p>
+                        <p>Amount 
+                            <select name="" id="">
+                                <option value="1">1</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./assets/bag.jpg" alt="">
+                    <div class="details">
+                        <h5>Title</h5>
+                        <p>$9.99</p>
+                        <p>Amount 
+                            <select name="" id="">
+                                <option value="1">1</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <h2 id="total">Total:  <span>$1000.00</span></h2>
+            </div>
+            <div class="col col-sm-6 col-md-6 col-lg-6 details" >
+                <div class="contact">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" placeholder="(min 3 characters)">
+                </div>
+                <div class="contact">
+                    <label for="Address">Address</label>
+                    <input type="text" placeholder="(min 6 characters)">
+                </div>
+                <div class="contact">
+                    <label for="creditCard">Credit card</label>
+                    <input type="text" placeholder="(16 digit number)">
+                </div>
+                <p>We'll never share your payment details with anyone else</p>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    </body>
